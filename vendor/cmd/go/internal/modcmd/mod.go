@@ -23,7 +23,7 @@ import (
 var CmdMod = &base.Command{
 	UsageLine: "mod [-v] [maintenance flags]",
 	Short:     "module maintenance",
-	Long: `o_O <=> O_o
+	Long: `
 Mod performs module maintenance operations as specified by the
 following flags, which may be combined.
 

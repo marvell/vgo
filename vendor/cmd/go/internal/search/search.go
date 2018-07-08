@@ -329,6 +329,8 @@ func CleanImportPaths(args []string) []string {
 	}
 	var out []string
 	for _, a := range args {
+		a = strings.ToLower(a)
+
 		// Arguments are supposed to be import paths, but
 		// as a courtesy to Windows developers, rewrite \ to /
 		// in command-line arguments. Handles .\... and so on.
